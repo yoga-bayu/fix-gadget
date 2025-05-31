@@ -4,10 +4,12 @@ import ProductSection from '@/components/ProductSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 import CallToAction from '@/components/CallToAction.vue'
 import Footer from '@/components/Footer.vue'
+import Navabr from '@/components/Navbar.vue'
 </script>
 
 <template>
   <div>
+    <Navbar />
     <!-- Section: Home -->
     <section
       id="home"
