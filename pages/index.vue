@@ -9,7 +9,7 @@ import Navbar from '@/components/Navbar.vue'
 
 <template>
   <div>
-    <Navbar />>
+    <Navbar />
     <!-- Section: Home -->
     <section
       id="home"
