@@ -3,7 +3,6 @@ import AboutSection from '@/components/AboutSection.vue'
 import ProductSection from '@/components/ProductSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 import CallToAction from '@/components/CallToAction.vue'
-import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -12,10 +11,10 @@ import Footer from '@/components/Footer.vue'
     <section
       id="home"
       class="min-h-screen bg-cover bg-center flex items-center"
-      :style="`background-image: url('/img/bg1.png')`"
+      style="background-image: url('/img/bg1.png')"
     >
       <div class="text-white p-6 md:p-12 lg:p-20 max-w-3xl animate-fade-in">
-        <h1 class= "text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           Fix Gadget
         </h1>
         <p class="birthstone-regular text-base md:text-lg lg:text-4xl mb-6">
@@ -31,19 +30,22 @@ import Footer from '@/components/Footer.vue'
     </section>
 
     <!-- Section: About -->
-    <AboutSection />
+    <section id="about">
+      <AboutSection />
+    </section>
 
     <!-- Section: Product -->
-    <ProductSection />
+    <section id="product">
+      <ProductSection />
+    </section>
 
     <!-- Section: Contact -->
-    <ContactSection />
+    <section id="contact">
+      <ContactSection />
+    </section>
 
     <!-- Call to Action -->
     <CallToAction />
-
-    <!-- Footer -->
-    <Footer />
   </div>
 </template>
 
