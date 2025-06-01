@@ -15,16 +15,16 @@
 
       <!-- MENU TENGAH -->
       <div class="hidden md:flex absolute left-1/2 transform -translate-x-1/2 space-x-8">
-        <a href="#" class="text-gray-800 hover:text-blue-600 font-medium transition duration-200">
+        <a href="#" class="text-gray-800 hover:text-red-600 font-medium transition duration-200">
           Home
         </a>
-        <a href="#about" class="text-gray-800 hover:text-blue-600 font-medium transition duration-200">
+        <a href="#about" class="text-gray-800 hover:text-red-600 font-medium transition duration-200">
           About
         </a>
-        <a href="#product" class="text-gray-800 hover:text-blue-600 font-medium transition duration-200">
+        <a href="#product" class="text-gray-800 hover:text-red-600 font-medium transition duration-200">
           Product
         </a>
-        <a href="#contact" class="text-gray-800 hover:text-blue-600 font-medium transition duration-200">
+        <a href="#contact" class="text-gray-800 hover:text-red-600 font-medium transition duration-200">
           Contact
         </a>
       </div>
